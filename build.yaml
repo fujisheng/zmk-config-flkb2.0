@@ -14,5 +14,8 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: [flkb_left, flkb_right]
-    name: "flkb"
+    shield: flkb_left
+  - board: nrfmicro_13
+    shield: flkb_right
+  - board: nrfmicro_13
+    shield: settings_reset
