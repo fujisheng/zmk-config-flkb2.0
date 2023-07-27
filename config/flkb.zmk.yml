@@ -1,0 +1,14 @@
+file_format: "1"
+id: flkb
+name: FLKB
+type: shield
+url: https://github.com/fujisheng/flkb
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - flkb_left
+  - flkb_right
