@@ -1,2 +1,2 @@
 # zmk-config-flkb
-zmk config for board nrfmicro sheild scylla
+zmk config for board nrfmicro shield scylla
