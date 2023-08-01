@@ -14,8 +14,6 @@
 ---
 include:
   - board: nrfmicro_13
-    shield: flkb_dongle
-  - board: nrfmicro_13
     shield: flkb_left
   - board: nrfmicro_13
     shield: flkb_right

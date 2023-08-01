@@ -10,6 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - flkb_dongle
   - flkb_left
   - flkb_right
