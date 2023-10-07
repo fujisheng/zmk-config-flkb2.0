@@ -72,9 +72,9 @@
         { "label":   "FN1", "row": 4, "col":  7, "x": 13, "y": 4},
         { "label":  "RGUI", "row": 4, "col":  8, "x":  12, "y": 4},
         
-        { "label":  "RCTL", "row": 4, "col":  9, "x": 10.5, "y": 5},
-        { "label":  "RGUI", "row": 4, "col":  10, "x":  9.5, "y": 5},
-        { "label":  "RCTL", "row": 4, "col":  11, "x": 8.5, "y": 5},
+        { "label":  "RCTL", "row": 4, "col":  9, "x": 10.5, "y": 4},
+        { "label":  "RGUI", "row": 4, "col":  10, "x":  9.5, "y": 4},
+        { "label":  "RCTL", "row": 4, "col":  11, "x": 8.5, "y": 4},
         { "label":  "RGUI", "row": 4, "col":  12, "x":  9.5, "y": 5},
         { "label":  "RCTL", "row": 4, "col":  13, "x": 8.5, "y": 5}
       ]
