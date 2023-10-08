@@ -63,13 +63,19 @@
         { "label":   "SPC", "row": 4, "col":  4, "x":  7.5, "y": 4 },
         { "label":   "SPC", "row": 4, "col":  5, "x":  6.5, "y": 5 },
         { "label":  "RALT", "row": 4, "col":  6, "x":  7.5, "y": 5 },
-        { "label":   "FN1", "row": 4, "col":  7, "x":   15, "y": 4 },
-        { "label":  "RGUI", "row": 4, "col":  8, "x":   14, "y": 4 },
-        { "label":  "RCTL", "row": 4, "col":  9, "x": 12.5, "y": 4 },
-        { "label":  "RGUI", "row": 4, "col": 10, "x": 11.5, "y": 4 },
-        { "label":  "RCTL", "row": 4, "col": 11, "x": 10.5, "y": 4 },
-        { "label":  "RGUI", "row": 4, "col": 12, "x": 11.5, "y": 5 },
-        { "label":  "RCTL", "row": 4, "col": 13, "x": 10.5, "y": 5 }
+        { "label":  "RCTL", "row": 4, "col": 7, "x": 10.5, "y": 5 },
+        { "label":  "RGUI", "row": 4, "col": 8, "x": 11.5, "y": 5 },
+        { "label":  "RCTL", "row": 4, "col": 9, "x": 10.5, "y": 4 },
+         { "label":  "RGUI", "row": 4, "col": 10, "x": 11.5, "y": 4 },
+         { "label":  "RCTL", "row": 4, "col":  11, "x": 12.5, "y": 4 },
+         { "label":  "RGUI", "row": 4, "col":  12, "x":   14, "y": 4 },
+        { "label":   "FN1", "row": 4, "col":  13, "x":   15, "y": 4 },
+       
+       
+       
+        
+        
+
       ]
     }
   },
