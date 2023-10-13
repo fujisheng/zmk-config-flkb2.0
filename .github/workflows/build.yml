@@ -34,11 +34,11 @@ jobs:
       - name: West Zephyr export
         run: west zephyr-export
       - name: West Build (left)
-        run: west build -s zmk/app -d build/left -b nrfmicro -- -DSHIELD=flkb_left -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+        run: west build -s zmk/app -d build/left -b nrfmicro_13 -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config" -DSHIELD=flkb_left 
       - name: FLKB Left Kconfig file
         run: grep -vE '(^#|^$)' build/left/zephyr/.config
       - name: West Build (right)
-        run: west build -s zmk/app -d build/right -b nrfmicro -- -DSHIELD=flkb_right -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+        run: west build -s zmk/app -d build/right -b nrfmicro_13 -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config" -DSHIELD=flkb_right
       - name: FLKB Right Kconfig file
         run: grep -vE '(^#|^$)' build/right/zephyr/.config
       - name: Rename zmk.uf2
