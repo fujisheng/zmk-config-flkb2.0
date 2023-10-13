@@ -70,19 +70,19 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8) RC(3,9)
 	};
 
 	led_indicators {
-        compatible = "gpio-leds";
-        label = "LED indicators";
-        led_capslock: led_capslock {
-            gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
-            label = "Caps lock LED";
+            compatible = "gpio-leds";
+            label = "LED indicators";
+            led_capslock: led_capslock {
+                gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
+                label = "Caps lock LED";
+            };
+            led_numlock: led_numlock {
+                gpios = <&gpio1 3 GPIO_ACTIVE_HIGH>;
+                label = "Num lock LED";
+            };
+	    led_scrolllock: led_scrolllock{
+	        gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;
+	        label = "Scroll lock LED";
+	    };
         };
-        led_numlock: led_numlock {
-            gpios = <&gpio1 3 GPIO_ACTIVE_HIGH>;
-            label = "Num lock LED";
-        };
-	led_scrolllock: led_scrolllock{
-	    gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;
-	    label = "Scroll lock LED";
-	};
-    };
 };
