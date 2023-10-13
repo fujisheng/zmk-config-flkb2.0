@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: refil
-      url-base: https://github.com/refil
+    - name: fujisheng
+      url-base: https://github.com/fujisheng
   projects:
     - name: zmk
-      remote: refil
+      remote: fujisheng
       revision: adv360-z3.2
       import: app/west.yml
   self:
