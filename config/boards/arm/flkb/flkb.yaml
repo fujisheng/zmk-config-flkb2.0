@@ -1,5 +1,5 @@
-identifier: nrfkb
-name: nrfkb
+identifier: flkb
+name: flkb
 type: keyboard
 arch: arm
 toolchain:
