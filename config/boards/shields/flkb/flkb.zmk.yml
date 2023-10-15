@@ -3,7 +3,6 @@ id: flkb
 name: FLKB
 type: shield
 url: https://github.com/fujisheng/flkb
-requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
