@@ -65,16 +65,16 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)   RC(4,7) RC(4,8) RC(4,9
         compatible = "gpio-leds";
         label = "LED indicators";
         led_capslock: led_capslock {
-            gpios = <&gpio1 1 GPIO_ACTIVE_HIGH>;
+            gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;
             label = "Caps lock LED";
         };
         led_numlock: led_numlock {
-            gpios = <&gpio1 3 GPIO_ACTIVE_HIGH>;
+            gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
             label = "Num lock LED";
         };
-		led_scrolllock: led_scrolllock{
-			gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;
-			label = "Scroll lock LED";
-		};
+	led_scrolllock: led_scrolllock{
+            gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
+            label = "Scroll lock LED";
+	};
     };
 };
