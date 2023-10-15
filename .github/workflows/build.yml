@@ -41,12 +41,8 @@ jobs:
         run: west build -s zmk/app -d build/right -b flkb -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config" -DSHIELD=flkb_right
       - name: FLKB Right Kconfig file
         run: grep -vE '(^#|^$)' build/right/zephyr/.config
-      - name: West Build (settings_reset)
-        run: west build -s zmk/app -d build/setting_reset -b flkb -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config" -DSHIELD=settings_reset
-      - name: FLKB Settings_Reset Kconfig file
-        run: grep -vE '(^#|^$)' build/settings_reset/zephyr/.config
       - name: Rename zmk.uf2
-        run: cp build/left/zephyr/zmk.uf2 left.uf2 && cp build/right/zephyr/zmk.uf2 right.uf2 && cp build/settings_reset/zephyr/zmk.uf2 setting_reset.uf2
+        run: cp build/left/zephyr/zmk.uf2 left.uf2 && cp build/right/zephyr/zmk.uf2 right.uf2
       - name: Archive (FLKB)
         uses: actions/upload-artifact@v3
         with:
