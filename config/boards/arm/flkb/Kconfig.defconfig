@@ -3,10 +3,10 @@
 # Copyright (c) 2020 Pete Johanson, Derek Schmell
 # SPDX-License-Identifier: MIT
 
-if BOARD_NRFKB
+if BOARD_FLKB
 
 config BOARD
-    default "nrfkb"
+    default "flkb"
 
 if USB_DEVICE_STACK
 
@@ -24,4 +24,4 @@ config ZMK_BLE
 config ZMK_USB
     default y
 
-endif # BOARD_NRFKB
+endif # BOARD_FLKB
