@@ -1,0 +1,27 @@
+# BlueMicro840 board configuration
+
+# Copyright (c) 2020 Pete Johanson, Derek Schmell
+# SPDX-License-Identifier: MIT
+
+if BOARD_NRFKB
+
+config BOARD
+    default "nrfkb"
+
+if USB_DEVICE_STACK
+
+config USB_NRFX
+    default y
+
+endif # USB_DEVICE_STACK
+
+config BT_CTLR
+    default BT
+
+config ZMK_BLE
+    default y
+
+config ZMK_USB
+    default y
+
+endif # BOARD_NRFKB
