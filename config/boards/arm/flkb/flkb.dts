@@ -8,8 +8,8 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 
 / {
-    model = "nrfkb";
-    compatible = "fl,nrfkb";
+    model = "flkb";
+    compatible = "fl,flkb";
 
     chosen {
         zephyr,code-partition = &code_partition;
