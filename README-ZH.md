@@ -2,8 +2,8 @@
 - [README English](./README.md)
 
 # zmk-config-flkb
-FLKB的zmk配置文件，
-通过https://nickcoutsos.github.io/keymap-editor/ 来编辑。
+FLKB的zmk配置文件  
+使用https://nickcoutsos.github.io/keymap-editor/ 来编辑。
 
 ## 使用方式
 
