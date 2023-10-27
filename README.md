@@ -1,4 +1,4 @@
-- [README 中文](./README_zh.md)
+- [README 中文](./README-ZH.md)
 - [README English](./README.md)
 
 # zmk-config-flkb
