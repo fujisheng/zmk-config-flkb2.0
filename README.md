@@ -1,3 +1,6 @@
+- [README 中文](./README_zh.md)
+- [README English](./README.md)
+
 # zmk-config-flkb
 zmk config for FLKB
 keymap edit with https://nickcoutsos.github.io/keymap-editor/
