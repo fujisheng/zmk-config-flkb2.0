@@ -4,11 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: fujisheng
       url-base: https://github.com/fujisheng
-    - name: ReFil
-      url-base: https://github.com/ReFil
+    - name: refil
+      url-base: https://github.com/refil
   projects:
     - name: zmk
-      remote: ReFil
+      remote: refil
       revision: adv360-z3.2
       import: app/west.yml
   self:
