@@ -27,3 +27,13 @@ To locate your firmware files...
     - If you changed [the conf file](/config/flkb.conf) you should flash both sides their respective files.
 
 Your keyboard is now ready to use.
+
+![image](./pic/p2.jpg)
+![image](./pic/p3.jpg)
+![image](./pic/p4.jpg)
+![image](./pic/p5.jpg)
+![image](./pic/p6.jpg)
+![image](./pic/p7.jpg)
+![image](./pic/p8.jpg)
+![image](./pic/p9.jpg)
+![image](./pic/p10.jpg)
