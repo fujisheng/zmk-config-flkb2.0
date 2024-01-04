@@ -5,6 +5,8 @@
 FLKB的zmk配置文件  
 使用https://nickcoutsos.github.io/keymap-editor/ 来编辑。
 
+![image](./pic/p2.jpg)
+
 ## 使用方式
 
 1. Fork 这个存储库.
@@ -22,3 +24,13 @@ FLKB的zmk配置文件
 
 参考https://zmk.dev/docs/user-setup  
 现在你的键盘应该可以正常工作了。
+
+![image](./pic/p2.jpg)
+![image](./pic/p3.jpg)
+![image](./pic/p4.jpg)
+![image](./pic/p5.jpg)
+![image](./pic/p6.jpg)
+![image](./pic/p7.jpg)
+![image](./pic/p8.jpg)
+![image](./pic/p9.jpg)
+![image](./pic/p10.jpg)
