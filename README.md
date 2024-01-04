@@ -5,6 +5,8 @@
 zmk config for FLKB  
 keymap edit with https://nickcoutsos.github.io/keymap-editor/
 
+![image](pic/p1.png)
+
 ## Instructions
 
 1. Fork this repository.
