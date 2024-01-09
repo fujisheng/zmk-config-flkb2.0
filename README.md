@@ -4,6 +4,8 @@
 # zmk-config-flkb
 zmk config for FLKB  
 keymap edit with https://nickcoutsos.github.io/keymap-editor/
+discord:https://discord.gg/rwY3UyXv
+
 
 ![image](./pic/p1.jpg)
 
