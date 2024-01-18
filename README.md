@@ -1,6 +1,6 @@
 - [README 中文](./README-ZH.md)
 - [README English](./README.md)
-- This repo will be abandoned, go to: https://github.com/egokb/zmk-config-ego46
+- This repo will be abandoned, go to: https://github.com/egokb/zmk-config-ego62
 # zmk-config-flkb
 zmk config for FLKB  
 keymap edit with https://nickcoutsos.github.io/keymap-editor/
