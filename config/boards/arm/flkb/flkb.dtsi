@@ -6,7 +6,6 @@
 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
-#include <dt-bindings/led/led.h>
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
@@ -21,9 +20,6 @@
         zmk,battery = &vbatt;
         zmk,kscan = &kscan0;
 	zmk,matrix_transform = &default_transform;
-	/* zmk,led-capslock = &led_capslock;
-   	 zmk,led-numlock = &led_numlock;
-	 zmk,led-scrolllock = &led_scrolllock; */
     };
 
     default_transform: keymap_transform_0 {
@@ -53,26 +49,6 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)   RC(4,7) RC(4,8) RC(4,9
             label = "Blue LED";
         };
     };
-    
-    led_indicators {
-        compatible = "gpio-leds";
-        label = "LED indicators";
-        
-        led_capslock: led_capslock {
-            gpios = <&gpio0 3 GPIO_ACTIVE_HIGH>;
-            label = "Caps lock LED";
-        };
-
-        led_numlock: led_numlock {
-            gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
-            label = "Num lock LED";
-        };
-
-	    led_scrolllock: led_scrolllock{
-            gpios = <&gpio0 29 GPIO_ACTIVE_HIGH>;
-            label = "Scroll lock LED";
-        };
-	};
 
     ext-power {
         compatible = "zmk,ext-power-generic";
