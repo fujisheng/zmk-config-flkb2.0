@@ -6,10 +6,12 @@ manifest:
       url-base: https://github.com/fujisheng
     - name: refil
       url-base: https://github.com/refil
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: fujisheng
-      revision: adv360-z3.2-2
+      remote: petejohanson
+      revision: core/zephyr-3.5-update
       import: app/west.yml
   self:
     path: config
