@@ -7,7 +7,7 @@ manifest:
     - name: refil
       url-base: https://github.com/refil
   projects:
-    - name: zmk_ReFil
+    - name: zmk
       remote: fujisheng
       revision: adv360-z3.2-2
       import: app/west.yml
